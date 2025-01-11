@@ -1,0 +1,131 @@
+@media (min-width: 278px) {
+    .container {
+        max-width: 330px;
+    }
+}
+
+@media (min-width: 640px) {
+    .container {
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 992.98px) {
+    .download-backdrop {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 970px;
+    }
+    .mobile-only {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1120px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1360px;
+    }
+    .small-desktop-only {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1439.98px) {
+    .large-desktop-only {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1023.98px) {
+    .container {
+        max-width: 1000px;
+    }
+    .desktop-only {
+        display: none !important;
+    }
+    header {
+        box-shadow: none;
+        border: 1px solid #E5E7F0;
+    }
+    nav {
+        height: 56px;
+    }
+    .search {
+        flex-grow: 1;
+    }
+    .swiper-btn-prev,
+    .swiper-btn-next {
+        display: none !important;
+    }
+    .app-item {
+        max-width: calc(16vw - 1rem);
+        width: calc(16vw - 1rem);
+    }
+    .banner-item {
+        max-width: 80vw;
+        width: 80vw;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        overflow-y: hidden;
+    }
+}
+
+@media (max-width: 639.98px) {
+    main {
+        padding-left: 0 !important;
+        background-color: #FFF;
+    }
+    .box {
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
+    .apps-box {
+        background-color: transparent;
+        border: 0;
+        box-shadow: none;
+    }
+    .apps-box-title {
+        padding-left: 0;
+        padding-right: 0;
+        border-bottom: 0;
+    }
+    .swiper {
+        margin-right: -13px !important;
+    }
+    .app-item {
+        max-width: calc(24vw - 1rem);
+        width: calc(24vw - 1rem);
+    }
+}
+
+@media (max-width: 331px) {
+    .container {
+        max-width: 330px;
+        width: 118%;
+    }
+    .bottom-download-box {
+        max-width: unset;
+        width: 100%;
+    }
+}
+
+@media (max-width: 281px) {
+    .burger-menu,
+    .download-backdrop {
+        right: -15%;
+    }
+}
